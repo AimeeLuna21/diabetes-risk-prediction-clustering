@@ -1,4 +1,4 @@
-Background Info on Diabetes
+# Background Info on Diabetes
 Diabetes is one of the most prevalent chronic diseases in the United States and affects millions of individuals thus placing a significant burden on the healthcare system.
 
 This diease is characterized by the body's inability to properly regulate blood glucose levels, which is either because of insufifcient insulin production or reduced insulin sensitivity. Over time, unmanaged diabetes can lead to very serious complications like cardiovascular diases, kidney failure, vision loss, and reduced life expectancy. Becasue so many individuals are unaware that they are at risk, early identification is important for implementing preventative strategies like lifestyle changes and medical intervention.
@@ -9,7 +9,7 @@ For this analysis, we use a cleaned and preprocessed subset of the data that inc
 
 Specifically, we use the balanced binary version of the dataset, which has the target variable indicating whether an individual has diabetes or is at risk (including prediabetes). This version was selected over the original multiclass dataset because it provides a balanced class distribution, which improves the performance and interpretability of our classification models. Using a binary outcome also simplifies evaluation metrics and allows for clearer interpretation of results.
 
-Research Question
+#Research Question
 The goal of this project is to investigate whether patterns in health-related behaviors and conditions can be used to accurately predict diabetes risk.
 
 So we ask: Can clustering individuals into health-risk profiles using k-Means improve the performance and interpretability of a kNN model in predicting diabetes?
