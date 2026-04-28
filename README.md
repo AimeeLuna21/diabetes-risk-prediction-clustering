@@ -9,7 +9,7 @@ For this analysis, we use a cleaned and preprocessed subset of the data that inc
 
 Specifically, we use the balanced binary version of the dataset, which has the target variable indicating whether an individual has diabetes or is at risk (including prediabetes). This version was selected over the original multiclass dataset because it provides a balanced class distribution, which improves the performance and interpretability of our classification models. Using a binary outcome also simplifies evaluation metrics and allows for clearer interpretation of results.
 
-#Research Question
+# Research Question
 The goal of this project is to investigate whether patterns in health-related behaviors and conditions can be used to accurately predict diabetes risk.
 
 So we ask: Can clustering individuals into health-risk profiles using k-Means improve the performance and interpretability of a kNN model in predicting diabetes?
